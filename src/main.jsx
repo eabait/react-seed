@@ -1,17 +1,14 @@
-'use strict';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import RepositorySearch from './RepositorySearch/RepositorySearch.jsx';
 
-const React = require('react');
-const ReactDOM = require('react-dom');
-
-class Application extends React.Component {
-  render() {
-    return (
-      <section className="application">
-        React Seed
-      </section>
-    );
-  }
-};
+function Application() {
+  return (
+    <section className="application">
+      <RepositorySearch />
+    </section>
+  );
+}
 
 ReactDOM.render(
   <Application />,

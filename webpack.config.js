@@ -11,6 +11,14 @@ var config = {
     filename: 'bundle.js'
   },
   module: {
+    preLoaders: [
+      {
+        test: /\.jsx$|\.js$/,
+        loader: 'eslint-loader',
+        include: APP_DIR,
+        exclude: BUILD_DIR
+      }
+    ],
     loaders: [
       {
         test: /\.jsx?/,
