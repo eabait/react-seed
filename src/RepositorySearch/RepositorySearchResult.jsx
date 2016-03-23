@@ -13,5 +13,5 @@ export default function RepositorySearchResult({ repositories }) {
 }
 
 RepositorySearchResult.propTypes = {
-  repositories: React.PropTypes.nod
+  repositories: React.PropTypes.array.isRequired
 };

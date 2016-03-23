@@ -53,9 +53,9 @@ export default class RepositorySearch extends React.Component {
             onChange={this.handleQueryChange}
             value={this.state.searchQuery}
           />
-        <button onClick={this.handleSearch}>
+          <button onClick={this.handleSearch}>
             Search
-        </button>
+          </button>
         </article>
         <RepositorySearchResult repositories={this.state.repositories} />
       </section>
