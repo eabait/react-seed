@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A simple starter for a React based project",
   "main": "index.js",
+  "repository": "https://github.com/eabait/react-seed.git",
   "scripts": {
     "build": "rm www/bundle.js & node_modules/.bin/webpack"
   },
